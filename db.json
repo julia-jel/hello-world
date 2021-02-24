@@ -1,0 +1,12 @@
+{
+  "columns": [
+    {"title":"status","type":"text","req":1,"order":0},
+    {"title":"rating","type":"text","req":"","order":1},
+    {"title":"lastUpdate","type":"date","req":1,"order":2},
+    {"title":"created","type":"date","req":"","order":3}
+  ],
+  "electiveFields": [
+    {"title":"lastName","type":"email","req":1,"order":0},
+    {"title":"phoneNumber","type":"text","req":"","order":1}
+  ]
+}
