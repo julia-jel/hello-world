@@ -8,5 +8,67 @@
   "electiveFields": [
     {"title":"lastName","type":"email","req":1,"order":0},
     {"title":"phoneNumber","type":"text","req":"","order":1}
-  ]
+  ],
+  "lists": [
+    {
+        "listName": "Женщины",
+        "listId": "111",
+        "total": 2,
+        "subscribers": [
+            {
+                "email": "alenka@mail.ru",
+                "firstName": "Елена",
+                "lastName": "Иванова",
+                "_id": "1001",
+                "lastUpdate": "new Date()",
+                "rating": 2,
+                "status": "active",
+                "phoneNumber": "89563752525"
+            },
+            {
+                "email": "ira@mail.ru",
+                "firstName": "Ирина",
+                "lastName": "Петрова",
+                "_id": "1002",
+                "lastUpdate": "new Date()",
+                "rating": 2,
+                "status": "unsubscribed"
+            }
+        ]
+      },
+      {
+        "listName": "Мужчины",
+        "listId": "222",
+        "total": 3,
+        "subscribers": [
+            {
+                "email": "sasha@mail.ru",
+                "firstName": "Александр",
+                "lastName": "Бобров",
+                "_id": "1004",
+                "lastUpdate": "new Date()",
+                "rating": 2,
+                "status": "inactive"
+            },
+            {
+                "email": "ivan333@mail.ru",
+                "firstName": "Иван",
+                "lastName": "Безымянный",
+                "_id": "1005",
+                "lastUpdate": "new Date()",
+                "rating": 2,
+                "status": "unconfirmed"
+            },
+            {
+                "email": "nico@mail.ru",
+                "firstName": "Николай",
+                "lastName": "Суворов",
+                "_id": "1006",
+                "lastUpdate": "new Date()",
+                "rating": 2,
+                "status": "bounced"
+            }
+        ]
+      }
+    ]
 }
